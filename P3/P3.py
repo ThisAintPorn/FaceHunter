@@ -3,7 +3,7 @@ import cv2
 cascadePath = 'haarcascade_frontalface_default.xml'
 faceCascade = cv2.CascadeClassifier(cascadePath)
 
-img = cv2.imread('as.jpg')
+img = cv2.imread('peter.jpg')
 
 #Defining minimum window size to be seen as face
 skalar = 0.1
